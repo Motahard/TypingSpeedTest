@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background: #f4f4f4;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+h2 {
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+input {
+  margin: 2rem auto;
+  display: block;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+  border-radius: 10px;
+}
+
+.danger {
+  display: block;
+  color: red;
+}
+
+.output-text {
+  color: rgb(19, 164, 19);
+  margin-bottom: 2rem;
+}
+
+.hide {
+  display: none;
+}
